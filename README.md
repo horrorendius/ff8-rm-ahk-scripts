@@ -28,6 +28,10 @@ I have taken his original script, and modified it to be a 'closed loop' that can
    - QOC NOT in Deling: 54 declines (default)
    - QOC in Deling: 140 declines (edit the script to change)
 
+*** Setup Note ***:
+
+The Save slot was customized to use a specific save slot. You will need to edit this if you want to save in another slot.
+
 #### Hotkeys
 
 | Key | Action |
@@ -46,7 +50,7 @@ I have taken his original script, and modified it to be a 'closed loop' that can
 4. Win the card game to get the Rosetta Stone
 5. Press F6 (normal) or F8 (3x speed) to return, save, and loop
 
-#### Configuration
+##### Decline Count Change
 
 To change decline count (if QOC is in Deling), edit the script:
 
