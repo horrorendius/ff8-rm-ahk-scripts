@@ -2,6 +2,29 @@
 
 AutoHotKey scripts for Final Fantasy VIII Remastered to automate farming and RNG manipulation.
 
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Scripts](#scripts)
+  - [1. D-District Prison Rosetta Stone Farm](#1-d-district-prison-rosetta-stone-farm-ff8-prison-rosetta-stone-scriptahk)
+    - [Information](#information)
+    - [Setup](#setup)
+    - [Hotkeys](#hotkeys)
+    - [Workflow](#workflow)
+    - [Troubleshooting](#troubleshooting)
+  - [2. Angelo Search Farm](#2-angelo-search-farm-ff8-angelo-farmahk)
+    - [Information](#information-1)
+    - [Setup](#setup-1)
+    - [Hotkeys](#hotkeys-1)
+    - [Row Timing Reference (3x Speed)](#row-timing-reference-3x-speed)
+    - [Row Timing Reference (Normal Speed)](#row-timing-reference-normal-speed)
+    - [Configuration](#configuration)
+    - [Notes](#notes)
+    - [Troubleshooting](#troubleshooting-1)
+- [Default Key Bindings](#default-key-bindings)
+- [Tested On](#tested-on)
+- [References](#references)
+
 ## Requirements
 
 - [AutoHotKey v1.1](https://www.autohotkey.com/) (not v2)
@@ -68,7 +91,7 @@ Loop, 54
 
 -----
 
-### 1. Angelo Search Farm (`ff8-angelo-farm.ahk`)
+### 2. Angelo Search Farm (`ff8-angelo-farm.ahk`)
 
 Automates the Angelo Search farming technique to collect rare items. Uses RNG manipulation by pressing the skip button a specific number of times to advance through a 9-row item table.
 
@@ -89,10 +112,10 @@ Full disclosure! I haven't been able to get this automation working 100%, and co
 5. Start a _TIMER_ when the Item box disappears
 6. With 3x Speed _OFF_, wait for the next time that Angelo appears.
 7. Once he appears, pause your game, and note the time. Match the interval time to determine your current row
-  - For example, if you recorded that Angelo appeared after approximately 4 minutes and 13 seconds, then that was row 5.
+    - For example, if you recorded that Angelo appeared after approximately 4 minutes and 13 seconds, then that was row 5.
 8. Unpause your game, and wait until the Item box disappears, then..
 9. Press the corresponding hotkey for the next row, to start farming from that row
-  - Using the example from line 7, as you've just done row 5, you would press the button for row 6.
+    - Using the example from line 7, as you've just done row 5, you would press the button for row 6.
 
 #### Hotkeys
 
